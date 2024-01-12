@@ -10,6 +10,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </head>
 <body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Bootstrap
+          </a>
+        </div>
+      </nav>
     Nama Lengkap: <input type="text" name="nama" id="nama" /><br /> <br />
     <label for="select1">Pilih Kota: </label>
     <select name="paket" id="paket">
@@ -21,13 +29,6 @@
     <button onclick="tambah();">Tambah Baris</button> <br /> <br />
     <h3 id="name" style="display:none">Selamat Datang</h3>
     <p id="container"></p>
-    <button type="button" class="btn btn-primary position-relative">
-        Inbox
-        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-          99+
-          <span class="visually-hidden">unread messages</span>
-        </span>
-      </button>
     <script>
         inputName();
         function inputName() {
