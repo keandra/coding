@@ -1,0 +1,11 @@
+table {
+    align-items: center;
+    }
+    th {
+    background-color: aqua;
+    }
+    td {
+    border: 1px solid rgb(0, 0, 0);
+    width: 50%;
+    align-items: center;
+}
