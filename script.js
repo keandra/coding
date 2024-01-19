@@ -4,4 +4,4 @@ inputName();
         var greeting = "Selamat Datang "+Nama;
         document.getElementById("name").style.display="block";
         document.getElementById("name").innerHTML = greeting;
-}
+    }
