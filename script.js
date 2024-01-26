@@ -20,7 +20,7 @@ function tambah() {
     //tambah cell pada baris baru
     var cell1 = newRow.insertCell(0);
     var cell2 = newRow.insertCell(1);
-    var cell3 = newRow.insertRow(2);
+    var cell3 = newRow.insertCell(2);
     cell1.innerHTML = nama;
     cell2.innerHTML = paket;
     cell3.innerHTML = lama;
