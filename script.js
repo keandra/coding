@@ -15,4 +15,13 @@ function tambah() {
     // tambah baris kosong pada tabel
     // 0 = dihitung dari awal
     //table.rows.length = menambahkan pada akhir baris
+    //table.rows.length/2 = menambahkan data pada baris tengah tabel
+    var newRow = table.insertRow(table.rows.length / 2);
+    //tambah cell pada baris baru
+    var cell1 = newRow.insertCell(0);
+    var cell2 = newRow.insertCell(1);
+    var cell3 = newRow.insertRow(2);
+    cell1.innerHTML = nama;
+    cell2.innerHTML = paket;
+    cell3.innerHTML = lama;
 }
